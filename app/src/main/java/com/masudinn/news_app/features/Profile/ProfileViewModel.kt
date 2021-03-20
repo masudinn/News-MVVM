@@ -2,6 +2,7 @@ package com.masudinn.news_app.features.Profile
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.masudinn.news_app.core.Network.Service.NewsService
 import javax.inject.Inject
 
 class ProfileViewModel @Inject constructor(
