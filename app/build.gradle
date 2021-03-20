@@ -41,10 +41,15 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField 'String','BASE_URL','"https://newsapi.org/v2/"'
-            buildConfigField 'String','API_KEY','"6c687dac35bc4f8cb79d797d61704a72"'
+            buildConfigField 'String', 'BASE_URL', '"https://newsapi.org/v2/"'
+            buildConfigField 'String', 'API_KEY', '"6c687dac35bc4f8cb79d797d61704a72"'
+        }
+        debug {
+            buildConfigField 'String', 'BASE_URL', '"https://newsapi.org/v2/"'
+            buildConfigField 'String', 'API_KEY', '"6c687dac35bc4f8cb79d797d61704a72"'
         }
     }
 
