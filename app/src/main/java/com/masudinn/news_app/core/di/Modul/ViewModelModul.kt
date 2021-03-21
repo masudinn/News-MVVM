@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.masudinn.news_app.core.Utils.ViewModelFactory
 import com.masudinn.news_app.core.di.ViewModelKey
-import com.masudinn.news_app.features.Home.ViewModel.HomeViewModel
-import com.masudinn.news_app.features.Profile.ProfileViewModel
+import com.masudinn.news_app.features.home.viewmodel.HomeViewModel
+import com.masudinn.news_app.features.profile.ProfileViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

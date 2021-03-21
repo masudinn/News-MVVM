@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsApp">
-        <activity android:name=".features.WebViewActivity"></activity>
-        <activity android:name=".features.Profile.ProfileActivity" />
-        <activity android:name=".features.Home.View.HomeActivity" />
+        <activity android:name=".features.WebViewActivity"/>
+        <activity android:name=".features.profile.ProfileActivity" />
+        <activity android:name=".features.home.view.HomeActivity" />
         <activity android:name=".features.AboutActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

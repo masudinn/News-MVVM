@@ -5,7 +5,7 @@
     <data>
         <variable
             name="model"
-            type="com.masudinn.news_app.features.Home.model.Sources" />
+            type="com.masudinn.news_app.features.home.model.Sources" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

@@ -4,8 +4,8 @@ package com.masudinn.news_app.core.di.Modul
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.masudinn.news_app.core.Network.ResponseHttpLogging
-import com.masudinn.news_app.core.Network.Service.NewsService
+import com.masudinn.news_app.core.network.ResponseHttpLogging
+import com.masudinn.news_app.core.network.Service.NewsService
 import dagger.Module
 import dagger.Provides
 import okhttp3.Interceptor

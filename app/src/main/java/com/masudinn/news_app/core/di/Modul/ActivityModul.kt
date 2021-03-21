@@ -2,9 +2,10 @@ package com.masudinn.news_app.core.di.Modul
 
 import com.masudinn.news_app.core.di.ActivityScoped
 import com.masudinn.news_app.features.AboutActivity
-import com.masudinn.news_app.features.Home.View.HomeActivity
-import com.masudinn.news_app.features.Profile.ProfileActivity
+import com.masudinn.news_app.features.home.view.HomeActivity
+import com.masudinn.news_app.features.profile.ProfileActivity
 import com.masudinn.news_app.features.WebViewActivity
+import com.masudinn.news_app.features.home.view.HomeActivityModule
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

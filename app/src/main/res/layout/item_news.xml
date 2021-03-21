@@ -5,7 +5,7 @@
     <data>
         <variable
             name="model"
-            type="com.masudinn.news_app.features.Home.model.Articles" />
+            type="com.masudinn.news_app.features.home.model.Articles" />
     </data>
 
     <LinearLayout

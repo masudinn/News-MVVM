@@ -57,8 +57,11 @@ android {
         experimental = true
     }
 
-    dataBinding{
-        enabled = true
+    buildFeatures {
+
+        dataBinding true
+
+        viewBinding true
     }
 
     compileOptions {

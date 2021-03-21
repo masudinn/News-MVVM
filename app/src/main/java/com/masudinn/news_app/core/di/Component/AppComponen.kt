@@ -1,7 +1,7 @@
 package com.masudinn.news_app.core.di.Component
 
 import android.app.Application
-import com.masudinn.news_app.core.Platform.BaseApplication
+import com.masudinn.news_app.core.platform.BaseApplication
 import com.masudinn.news_app.core.di.Modul.ActivityModule
 import com.masudinn.news_app.core.di.Modul.AppModule
 import com.masudinn.news_app.core.di.Modul.NetworkModule
